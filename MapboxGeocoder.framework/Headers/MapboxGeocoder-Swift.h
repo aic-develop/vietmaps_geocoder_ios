@@ -397,6 +397,7 @@ SWIFT_CLASS_NAMED("GeocodedPlacemark")
 
 @class NSError;
 @class NSURLSessionDataTask;
+@class MBReverseGeocodeOptions;
 
 /// A geocoder object that allows you to query the <a href="https://www.mapbox.com/api-documentation/search/#geocoding">Mapbox Geocoding API</a> for known places corresponding to a given location. The query may take the form of a geographic coordinate or a human-readable string.
 /// The geocoder object allows you to perform both forward and reverse geocoding. <em>Forward geocoding</em> takes a human-readable query, such as a place name or address, and produces any number of geographic coordinates that correspond to that query. <em>Reverse geocoding</em> takes a geographic coordinate and produces a hierarchy of places, often beginning with an address, that describes the coordinate’s location.
@@ -429,6 +430,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MBGeocoder *
 /// returns:
 /// The data task used to perform the HTTP request. If, while waiting for the completion handler to execute, you no longer want the resulting placemarks, cancel this task.
 - (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSArray<MBGeocodedPlacemark *> * _Nullable, NSString * _Nullable, NSError * _Nullable))completionHandler;
+- (NSURLSessionDataTask * _Nonnull)getInfoLocation:(MBReverseGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionHandler;
 /// Submits a batch geocoding request to search for placemarks and delivers the results to the given closure.
 /// This method retrieves the placemarks asynchronously over a network connection. If a connection error or server error occurs, details about the error are passed into the given completion handler in lieu of the placemarks.
 /// Batch geocoding requires a Mapbox enterprise plan and allows you to store the resulting placemark data as part of a private database.
@@ -914,6 +916,7 @@ SWIFT_CLASS_NAMED("GeocodedPlacemark")
 
 @class NSError;
 @class NSURLSessionDataTask;
+@class MBReverseGeocodeOptions;
 
 /// A geocoder object that allows you to query the <a href="https://www.mapbox.com/api-documentation/search/#geocoding">Mapbox Geocoding API</a> for known places corresponding to a given location. The query may take the form of a geographic coordinate or a human-readable string.
 /// The geocoder object allows you to perform both forward and reverse geocoding. <em>Forward geocoding</em> takes a human-readable query, such as a place name or address, and produces any number of geographic coordinates that correspond to that query. <em>Reverse geocoding</em> takes a geographic coordinate and produces a hierarchy of places, often beginning with an address, that describes the coordinate’s location.
@@ -946,6 +949,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MBGeocoder *
 /// returns:
 /// The data task used to perform the HTTP request. If, while waiting for the completion handler to execute, you no longer want the resulting placemarks, cancel this task.
 - (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSArray<MBGeocodedPlacemark *> * _Nullable, NSString * _Nullable, NSError * _Nullable))completionHandler;
+- (NSURLSessionDataTask * _Nonnull)getInfoLocation:(MBReverseGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionHandler;
 /// Submits a batch geocoding request to search for placemarks and delivers the results to the given closure.
 /// This method retrieves the placemarks asynchronously over a network connection. If a connection error or server error occurs, details about the error are passed into the given completion handler in lieu of the placemarks.
 /// Batch geocoding requires a Mapbox enterprise plan and allows you to store the resulting placemark data as part of a private database.
