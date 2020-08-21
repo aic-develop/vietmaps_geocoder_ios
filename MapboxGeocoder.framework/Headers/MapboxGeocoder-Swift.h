@@ -430,6 +430,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MBGeocoder *
 /// returns:
 /// The data task used to perform the HTTP request. If, while waiting for the completion handler to execute, you no longer want the resulting placemarks, cancel this task.
 - (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSArray<MBGeocodedPlacemark *> * _Nullable, NSString * _Nullable, NSError * _Nullable))completionHandler;
+- (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options jsonCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))jsonCompletionHandler;
 - (NSURLSessionDataTask * _Nonnull)getInfoLocation:(MBReverseGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionHandler;
 /// Submits a batch geocoding request to search for placemarks and delivers the results to the given closure.
 /// This method retrieves the placemarks asynchronously over a network connection. If a connection error or server error occurs, details about the error are passed into the given completion handler in lieu of the placemarks.
@@ -949,6 +950,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MBGeocoder *
 /// returns:
 /// The data task used to perform the HTTP request. If, while waiting for the completion handler to execute, you no longer want the resulting placemarks, cancel this task.
 - (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSArray<MBGeocodedPlacemark *> * _Nullable, NSString * _Nullable, NSError * _Nullable))completionHandler;
+- (NSURLSessionDataTask * _Nonnull)geocodeWithOptions:(MBGeocodeOptions * _Nonnull)options jsonCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))jsonCompletionHandler;
 - (NSURLSessionDataTask * _Nonnull)getInfoLocation:(MBReverseGeocodeOptions * _Nonnull)options completionHandler:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionHandler;
 /// Submits a batch geocoding request to search for placemarks and delivers the results to the given closure.
 /// This method retrieves the placemarks asynchronously over a network connection. If a connection error or server error occurs, details about the error are passed into the given completion handler in lieu of the placemarks.

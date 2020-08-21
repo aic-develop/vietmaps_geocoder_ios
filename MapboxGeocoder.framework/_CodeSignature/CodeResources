@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MapboxGeocoder-Swift.h</key>
 		<data>
-		T63pmOFuvgoX01wKMElUt1oSZZU=
+		soFRdUZnawlTpFGt9YiuS+hfLDE=
 		</data>
 		<key>Headers/MapboxGeocoder.h</key>
 		<data>
@@ -26,23 +26,23 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		eLXtvtDoVoA6rfODagtAgR5aNh8=
+		iY2nCvamfT929s7C3qfq+5dmsBY=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		j6Ow5FtTc6mkBO1K3d8ngAXfP0o=
+		+piaQRqH8XjMkUVb7bttUt0nxKQ=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		j6Ow5FtTc6mkBO1K3d8ngAXfP0o=
+		+piaQRqH8XjMkUVb7bttUt0nxKQ=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		eLXtvtDoVoA6rfODagtAgR5aNh8=
+		iY2nCvamfT929s7C3qfq+5dmsBY=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		eLXtvtDoVoA6rfODagtAgR5aNh8=
+		iY2nCvamfT929s7C3qfq+5dmsBY=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm.swiftmodule</key>
 		<data>
-		t3/vNYE3dJddqUUXTF+zONechpo=
+		hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wPbaQnAYMklWV5o6gux/1lHtLZs=
+		Y2m1WZU3J1Ab8WmHQi3MaxeWG4k=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		wPbaQnAYMklWV5o6gux/1lHtLZs=
+		Y2m1WZU3J1Ab8WmHQi3MaxeWG4k=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		t3/vNYE3dJddqUUXTF+zONechpo=
+		hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		t3/vNYE3dJddqUUXTF+zONechpo=
+		hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T63pmOFuvgoX01wKMElUt1oSZZU=
+			soFRdUZnawlTpFGt9YiuS+hfLDE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nMKnk0x/erm66QQinym8exmavphgP2wlINopQvldyZQ=
+			rLOdaDnJCJlG8wD02MzRamQ1F1FuG4lXE/467hLY/fQ=
 			</data>
 		</dict>
 		<key>Headers/MapboxGeocoder.h</key>
@@ -139,55 +139,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eLXtvtDoVoA6rfODagtAgR5aNh8=
+			iY2nCvamfT929s7C3qfq+5dmsBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWwAb5SR6q3mD/KpzP/E4sGGhP8qOFdaA/ZP671M7jo=
+			wY/YgLFPnhR15V+dDtUOzfqPRCxgxnQFY4xeHS1t6M4=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j6Ow5FtTc6mkBO1K3d8ngAXfP0o=
+			+piaQRqH8XjMkUVb7bttUt0nxKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			scNkw/1OxVKcfPnp9kOdNmSofy6CuYq52mYmzbSNDz0=
+			o00J30oPAl3CcP/sJAS8gAbWQ600hqpkvBfSiPgXh8U=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j6Ow5FtTc6mkBO1K3d8ngAXfP0o=
+			+piaQRqH8XjMkUVb7bttUt0nxKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			scNkw/1OxVKcfPnp9kOdNmSofy6CuYq52mYmzbSNDz0=
+			o00J30oPAl3CcP/sJAS8gAbWQ600hqpkvBfSiPgXh8U=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eLXtvtDoVoA6rfODagtAgR5aNh8=
+			iY2nCvamfT929s7C3qfq+5dmsBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWwAb5SR6q3mD/KpzP/E4sGGhP8qOFdaA/ZP671M7jo=
+			wY/YgLFPnhR15V+dDtUOzfqPRCxgxnQFY4xeHS1t6M4=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eLXtvtDoVoA6rfODagtAgR5aNh8=
+			iY2nCvamfT929s7C3qfq+5dmsBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWwAb5SR6q3mD/KpzP/E4sGGhP8qOFdaA/ZP671M7jo=
+			wY/YgLFPnhR15V+dDtUOzfqPRCxgxnQFY4xeHS1t6M4=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm.swiftdoc</key>
@@ -205,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t3/vNYE3dJddqUUXTF+zONechpo=
+			hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			K+8oW6s17iqlGAJiHSFEiv7BLCbOBPbpVlaGR9ALBgg=
+			Hx2zNuKYm0DcTQXSfr0dT65pdkNH8/KQ+iQgEn8PHkM=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wPbaQnAYMklWV5o6gux/1lHtLZs=
+			Y2m1WZU3J1Ab8WmHQi3MaxeWG4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			8LExhsuzXS1FNsVfRQhB4UeJzvr94Y9mRb6e4Fc6O6U=
+			55Db1Rajaqm38T7XWBY6ZjCtmUQrvbZBGpRFp5AU2WE=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/arm64.swiftdoc</key>
@@ -249,11 +249,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wPbaQnAYMklWV5o6gux/1lHtLZs=
+			Y2m1WZU3J1Ab8WmHQi3MaxeWG4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			8LExhsuzXS1FNsVfRQhB4UeJzvr94Y9mRb6e4Fc6O6U=
+			55Db1Rajaqm38T7XWBY6ZjCtmUQrvbZBGpRFp5AU2WE=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t3/vNYE3dJddqUUXTF+zONechpo=
+			hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			K+8oW6s17iqlGAJiHSFEiv7BLCbOBPbpVlaGR9ALBgg=
+			Hx2zNuKYm0DcTQXSfr0dT65pdkNH8/KQ+iQgEn8PHkM=
 			</data>
 		</dict>
 		<key>Modules/MapboxGeocoder.swiftmodule/armv7.swiftdoc</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t3/vNYE3dJddqUUXTF+zONechpo=
+			hXxG2VCTL1Ri7BF8iAYnB28jr7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			K+8oW6s17iqlGAJiHSFEiv7BLCbOBPbpVlaGR9ALBgg=
+			Hx2zNuKYm0DcTQXSfr0dT65pdkNH8/KQ+iQgEn8PHkM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
