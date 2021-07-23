@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "VietMapsGeocoder"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "VietMaps Geocoding API for Swift and Objective-C."
 
   s.description  = <<-DESC
@@ -43,5 +43,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.module_name = "MapboxGeocoder"
   s.swift_version = "5.0"
-
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
